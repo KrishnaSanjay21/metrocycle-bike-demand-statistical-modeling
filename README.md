@@ -104,6 +104,7 @@ The first command pipeline downloads the official UCI archive, builds `data/proc
 - [Data dictionary](docs/data_dictionary.md)
 - [Executive recommendation](docs/executive_summary.md)
 - [Validation checklist](docs/validation_checklist.md)
+- [Streamlit deployment guide](docs/streamlit_deployment.md)
 
 ## Data source and license
 
