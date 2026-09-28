@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.py[cod]
+data/raw/*.csv
+data/raw/*.zip
+data/raw/Readme.txt
+data/processed/*.db
+outputs/*.csv
+outputs/*.html
+outputs/*.png
+outputs/*.joblib
+outputs/*.pickle
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/.gitkeep
+
