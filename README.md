@@ -67,6 +67,12 @@ pytest
 streamlit run streamlit_app.py
 ```
 
+For one-command pipeline, test, and dashboard validation:
+
+```bash
+python scripts/ci_validate.py
+```
+
 The first command pipeline downloads the official UCI archive, builds `data/processed/metrocycle.db`, executes the SQL checks, fits all models, and writes reproducible analytical outputs. The raw data and generated model artifacts are intentionally excluded from Git.
 
 ## Dashboard views
@@ -97,6 +103,7 @@ The first command pipeline downloads the official UCI archive, builds `data/proc
 - [Model card](docs/model_card.md)
 - [Data dictionary](docs/data_dictionary.md)
 - [Executive recommendation](docs/executive_summary.md)
+- [Validation checklist](docs/validation_checklist.md)
 
 ## Data source and license
 
